@@ -81,7 +81,7 @@ This work is licensed under the [Creative Commons Attribution 4.0 International 
 
 ## Contributing
 
-This is a **living document**. The diagram and its explanations will evolve as the data platform landscape changes and as the community provides feedback. If you spot something outdated, unclear, or missing:
+This is a **living document**. The diagram and its explanations will evolve as the data platform landscape changes — whether through community feedback or my own additions over time. If you spot something outdated, unclear, or missing:
 
 1. Open an issue describing what should change and why
 2. Or submit a pull request with your proposed improvement

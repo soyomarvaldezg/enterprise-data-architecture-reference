@@ -8,6 +8,8 @@ Think of it as the difference between **ingredients in a kitchen** and **a menu 
 
 The diagram shows five example data products: **Customer 360**, **Order Lifecycle**, **Inventory Availability**, **Financial Performance**, and **Marketing Attribution**. These are illustrations, not mandatory components. Every organization will have different data products based on its business.
 
+The **Business Data Products** column represents a logical portfolio, not another storage or processing zone. The technical implementation of a product may span curated datasets, serving structures, semantic models, APIs, contracts, documentation, quality controls, and service-level objectives.
+
 ---
 
 ## The Analogy: A Restaurant Menu vs. Kitchen Prep Station

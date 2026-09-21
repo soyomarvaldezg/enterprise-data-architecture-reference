@@ -2,6 +2,8 @@
 
 ## A Technology-Agnostic Conceptual Blueprint
 
+**WORK IN PROGRESS**
+
 This repository presents a technology-agnostic conceptual reference architecture for modern enterprise data platforms. It describes the logical capabilities required to acquire, integrate, process, govern, publish, and consume enterprise data.
 
 **Who is this for?**

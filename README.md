@@ -24,7 +24,7 @@ Not every dataset is expected to pass through every logical zone. The appropriat
 
 ![Enterprise Data Platform Reference Architecture](diagrams/dataArchitectureReference.png)
 
-The diagram is a capability inventory: five stages across the top and four cross-cutting planes beneath. The Example Data Products group is illustrative, not an additional stage. Each box is a capability you can mark as present, partial, or missing when mapping your own platform, so gaps are visible at a glance. The editable source lives in [`diagrams/dataArchitectureReference.svg`](diagrams/dataArchitectureReference.svg).
+The diagram is a capability inventory: five stages across the top and four cross-cutting planes beneath. The Example Data Products group is illustrative, not an additional stage. Each box is a capability you can mark as present, partial, or missing when mapping your own platform, so gaps are visible at a glance. The editable source lives in [`diagrams/dataArchitectureReference.svg`](diagrams/dataArchitectureReference.svg). The SVG uses DM Sans for card text and Source Code Pro for headings and labels; the PNG above is the rendered version.
 
 ### How to Use It
 

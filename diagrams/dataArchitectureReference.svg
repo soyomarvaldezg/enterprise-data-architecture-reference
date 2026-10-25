@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3400" height="2128" viewBox="0 0 3400 2128">
+<rect width="3400" height="2128" fill="#FFFFFF"/>
+<text x="40" y="58" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="36" fill="#2D3141" font-weight="800" text-anchor="start" letter-spacing="0.4">ENTERPRISE DATA PLATFORM  ·  REFERENCE ARCHITECTURE</text>
+<rect x="40" y="80" width="3320" height="3" rx="1.5" fill="#08829C"/>
+<rect x="40" y="133.5" width="3320" height="5" rx="2.5" fill="#A6D3DD"/>
+<rect x="40" y="104" width="450" height="1300" rx="12" ry="12" fill="#F4F8FA" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 52 104 h 426 a 12 12 0 0 1 12 12 v 52 h -450 v -52 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="265.0" y="145.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">DATA SOURCES</text>
+<text x="64" y="266.68" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">INTERNAL SOURCES</text>
+<rect x="64.0" y="286.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="326.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Databases</text>
+<rect x="64.0" y="358.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="398.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Applications</text>
+<rect x="64.0" y="430.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="470.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Files &amp; Documents</text>
+<rect x="64.0" y="502.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="542.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Unstructured Data</text>
+<rect x="64.0" y="574.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="614.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Messages &amp; Events</text>
+<rect x="64.0" y="646.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="686.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">IoT Devices</text>
+<text x="64" y="778.68" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">EXTERNAL / CLOUD SOURCES</text>
+<rect x="64.0" y="798.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="838.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">SaaS Applications</text>
+<rect x="64.0" y="870.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="910.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">APIs</text>
+<rect x="64.0" y="942.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="982.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">External Databases</text>
+<rect x="64.0" y="1014.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="1054.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">External Files</text>
+<rect x="64.0" y="1086.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="1126.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Streaming Data</text>
+<rect x="64.0" y="1158.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="1198.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">IoT Devices</text>
+<rect x="64.0" y="1230.0" width="402.0" height="62" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="265.0" y="1270.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Third-Party Data</text>
+<rect x="56" y="1364" width="418" height="1.5" fill="#CFDDE6"/>
+<text x="64" y="1392" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#5B6675" font-weight="600" text-anchor="start" letter-spacing="0.2">Start with the sources you own or subscribe to.</text>
+<rect x="526" y="104" width="650" height="1300" rx="12" ry="12" fill="#F4F8FA" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 538 104 h 626 a 12 12 0 0 1 12 12 v 52 h -650 v -52 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="851.0" y="145.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">INTEGRATION PLANE</text>
+<text x="550" y="310.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">INGESTION PATTERNS</text>
+<rect x="550.0" y="331.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="376.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Batch</text>
+<rect x="857.0" y="331.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1004.5" y="376.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Streaming</text>
+<rect x="550.0" y="415.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="460.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Micro-batch</text>
+<rect x="857.0" y="415.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1004.5" y="446.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">CDC</text>
+<text x="1004.5" y="474.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">(Change Data Capture)</text>
+<rect x="550.0" y="499.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="544.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Request/Response</text>
+<rect x="857.0" y="499.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1004.5" y="544.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Event-Driven</text>
+<text x="550" y="650.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">INTEGRATION METHODS</text>
+<rect x="550.0" y="671.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="716.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Publish &amp; Subscribe</text>
+<rect x="857.0" y="671.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1004.5" y="716.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Event Streaming</text>
+<rect x="550.0" y="755.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="800.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Replication / CDC</text>
+<rect x="857.0" y="755.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1004.5" y="786.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Database Connectivity</text>
+<text x="1004.5" y="814.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">(JDBC/ODBC)</text>
+<rect x="550.0" y="839.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="870.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">File Transfer</text>
+<text x="697.5" y="898.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">(FTP/SFTP)</text>
+<rect x="857.0" y="839.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1004.5" y="870.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Transfer</text>
+<text x="1004.5" y="898.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Services</text>
+<text x="550" y="990.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">CONNECTIVITY</text>
+<rect x="550.0" y="1011.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="1056.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">VPN</text>
+<rect x="857.0" y="1011.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1004.5" y="1042.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Private Service</text>
+<text x="1004.5" y="1070.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Connectivity</text>
+<rect x="550.0" y="1095.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="1140.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Network Peering</text>
+<rect x="857.0" y="1095.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1004.5" y="1126.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Dedicated Private</text>
+<text x="1004.5" y="1154.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Connectivity</text>
+<rect x="550.0" y="1179.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="697.5" y="1224.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Secure Connectors</text>
+<rect x="542" y="1364" width="618" height="1.5" fill="#CFDDE6"/>
+<text x="550" y="1392" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#5B6675" font-weight="600" text-anchor="start" letter-spacing="0.2">Pick one pattern, one method, one connectivity path.</text>
+<rect x="1212" y="104" width="650" height="1300" rx="12" ry="12" fill="#F4F8FA" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 1224 104 h 626 a 12 12 0 0 1 12 12 v 52 h -650 v -52 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="1537.0" y="145.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">ENTERPRISE DATA PLATFORM</text>
+<text x="1236" y="272.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">LOGICAL ZONES</text>
+<rect x="1236.0" y="293.0" width="141.5" height="64" rx="6" ry="6" fill="#E1EDF0" stroke="none" stroke-width="1.3"/>
+<text x="1306.75" y="332.7" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Raw</text>
+<rect x="1389.5" y="293.0" width="141.5" height="64" rx="6" ry="6" fill="#C6DCE2" stroke="none" stroke-width="1.3"/>
+<text x="1460.25" y="332.7" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Standardized</text>
+<rect x="1543.0" y="293.0" width="141.5" height="64" rx="6" ry="6" fill="#90BAC5" stroke="none" stroke-width="1.3"/>
+<text x="1613.75" y="332.7" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Curated</text>
+<rect x="1696.5" y="293.0" width="141.5" height="64" rx="6" ry="6" fill="#08829C" stroke="none" stroke-width="1.3"/>
+<text x="1767.25" y="332.7" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="0">Serving</text>
+<text x="1236" y="436.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">PROCESSING SERVICES</text>
+<rect x="1236.0" y="457.0" width="602.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1537.0" y="502.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Transformation</text>
+<rect x="1236.0" y="541.0" width="602.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1537.0" y="586.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Batch Processing</text>
+<rect x="1236.0" y="625.0" width="602.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1537.0" y="670.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Stream Processing</text>
+<rect x="1236.0" y="709.0" width="602.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1537.0" y="754.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Event Processing</text>
+<rect x="1236.0" y="793.0" width="602.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1537.0" y="838.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Enrichment</text>
+<rect x="1236.0" y="877.0" width="602.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1537.0" y="922.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Schema Evolution</text>
+<rect x="1236.0" y="961.0" width="602.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1537.0" y="1006.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Validation</text>
+<text x="1236" y="1112.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">DATA PROVISIONING &amp; SERVING</text>
+<rect x="1236.0" y="1133.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1383.5" y="1178.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Published Datasets</text>
+<rect x="1543.0" y="1133.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1690.5" y="1178.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Materialized Views</text>
+<rect x="1236.0" y="1217.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1383.5" y="1262.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Marts</text>
+<rect x="1543.0" y="1217.0" width="295.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="1690.5" y="1262.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Search Indexes</text>
+<rect x="1228" y="1364" width="618" height="1.5" fill="#CFDDE6"/>
+<text x="1236" y="1392" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#5B6675" font-weight="600" text-anchor="start" letter-spacing="0.2">Not every dataset crosses every zone.</text>
+<rect x="1898" y="104" width="790" height="1300" rx="12" ry="12" fill="#F4F8FA" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 1910 104 h 766 a 12 12 0 0 1 12 12 v 52 h -790 v -52 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="2293.0" y="145.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">SERVING &amp; DATA PRODUCTS</text>
+<text x="1922" y="266.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">BUSINESS SEMANTICS</text>
+<rect x="1922.0" y="287.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="318.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Business Metrics</text>
+<text x="2041.6666666666667" y="346.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">&amp; KPIs</text>
+<rect x="2173.3333333333335" y="287.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2293.0" y="318.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Business</text>
+<text x="2293.0" y="346.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Definitions</text>
+<rect x="2424.6666666666665" y="287.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2544.333333333333" y="318.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Dimensions &amp;</text>
+<text x="2544.333333333333" y="346.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Hierarchies</text>
+<rect x="1922.0" y="371.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="416.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Business Rules</text>
+<text x="1922" y="522.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">CONTEXT &amp; SEMANTIC SERVICES</text>
+<rect x="1922.0" y="543.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="588.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Semantic Models</text>
+<rect x="2173.3333333333335" y="543.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2293.0" y="588.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Business Ontology</text>
+<rect x="2424.6666666666665" y="543.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2544.333333333333" y="588.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Metric Models</text>
+<rect x="1922.0" y="627.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="658.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Semantic Query</text>
+<text x="2041.6666666666667" y="686.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">APIs</text>
+<rect x="2173.3333333333335" y="627.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2293.0" y="658.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Metric Calculation</text>
+<text x="2293.0" y="686.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">&amp; Resolution</text>
+<text x="1922" y="778.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">ACCESS SERVICES</text>
+<rect x="1922.0" y="799.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="844.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">SQL Access</text>
+<rect x="2173.3333333333335" y="799.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2293.0" y="844.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">REST APIs</text>
+<rect x="2424.6666666666665" y="799.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2544.333333333333" y="844.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">GraphQL APIs</text>
+<rect x="1922.0" y="883.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="914.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data</text>
+<text x="2041.6666666666667" y="942.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Virtualization</text>
+<rect x="2173.3333333333335" y="883.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2293.0" y="914.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Secure Data</text>
+<text x="2293.0" y="942.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Sharing</text>
+<rect x="2424.6666666666665" y="883.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2544.333333333333" y="928.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Exchange</text>
+<rect x="1922.0" y="967.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="998.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Federated</text>
+<text x="2041.6666666666667" y="1026.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Access</text>
+<text x="1922" y="1118.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">EXAMPLE DATA PRODUCTS (ILLUSTRATIVE)</text>
+<rect x="1922.0" y="1139.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#E7F4F6" stroke="#B7D9E0" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="1184.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Customer 360</text>
+<rect x="2173.3333333333335" y="1139.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#E7F4F6" stroke="#B7D9E0" stroke-width="1.3"/>
+<text x="2293.0" y="1184.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Order Lifecycle</text>
+<rect x="2424.6666666666665" y="1139.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#E7F4F6" stroke="#B7D9E0" stroke-width="1.3"/>
+<text x="2544.333333333333" y="1170.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Inventory</text>
+<text x="2544.333333333333" y="1198.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Availability</text>
+<rect x="1922.0" y="1223.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#E7F4F6" stroke="#B7D9E0" stroke-width="1.3"/>
+<text x="2041.6666666666667" y="1254.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Financial</text>
+<text x="2041.6666666666667" y="1282.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Performance</text>
+<rect x="2173.3333333333335" y="1223.0" width="239.33333333333334" height="72" rx="6" ry="6" fill="#E7F4F6" stroke="#B7D9E0" stroke-width="1.3"/>
+<text x="2293.0" y="1254.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Marketing</text>
+<text x="2293.0" y="1282.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Attribution</text>
+<rect x="1914" y="1364" width="758" height="1.5" fill="#CFDDE6"/>
+<text x="1922" y="1392" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#5B6675" font-weight="600" text-anchor="start" letter-spacing="0.2">Publish products, not raw tables.</text>
+<rect x="2724" y="104" width="636" height="1300" rx="12" ry="12" fill="#F4F8FA" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 2736 104 h 612 a 12 12 0 0 1 12 12 v 52 h -636 v -52 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="3042.0" y="145.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">DATA CONSUMPTION</text>
+<text x="2748" y="224.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">CONSUMERS</text>
+<rect x="2748.0" y="245.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="290.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Business Users</text>
+<rect x="3048.0" y="245.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="3192.0" y="290.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Analysts</text>
+<rect x="2748.0" y="329.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="374.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Scientists</text>
+<rect x="3048.0" y="329.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="3192.0" y="374.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">ML Engineers</text>
+<rect x="2748.0" y="413.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="458.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Application Teams</text>
+<text x="2748" y="564.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">APPLICATIONS</text>
+<rect x="2748.0" y="585.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="616.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Operational</text>
+<text x="2892.0" y="644.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Applications</text>
+<rect x="3048.0" y="585.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="3192.0" y="630.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Downstream Systems</text>
+<rect x="2748.0" y="669.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="700.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Embedded Analytics</text>
+<text x="2892.0" y="728.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">(in-app)</text>
+<rect x="3048.0" y="669.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="3192.0" y="714.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Partner Applications</text>
+<rect x="2748.0" y="753.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="784.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Third-Party</text>
+<text x="2892.0" y="812.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Applications</text>
+<text x="2748" y="904.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">CHANNELS</text>
+<rect x="2748.0" y="925.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="970.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">APIs</text>
+<rect x="3048.0" y="925.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="3192.0" y="970.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Partners</text>
+<rect x="2748.0" y="1009.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="1054.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Public Data</text>
+<rect x="3048.0" y="1009.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="3192.0" y="1054.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">External Consumers</text>
+<text x="2748" y="1160.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#6E7987" font-weight="700" text-anchor="start" letter-spacing="1.4">CONSUMPTION PATTERNS</text>
+<rect x="2748.0" y="1181.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="1226.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Analytics &amp; Reporting</text>
+<rect x="3048.0" y="1181.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="3192.0" y="1212.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Advanced Analytics</text>
+<text x="3192.0" y="1240.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">&amp; Data Science</text>
+<rect x="2748.0" y="1265.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="2892.0" y="1296.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Embedded Analytics</text>
+<text x="2892.0" y="1324.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">(delivery mode)</text>
+<rect x="3048.0" y="1265.0" width="288.0" height="72" rx="6" ry="6" fill="#FFFFFF" stroke="#D9E3E8" stroke-width="1.3"/>
+<text x="3192.0" y="1310.1" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Self-Service Analytics</text>
+<rect x="2740" y="1364" width="604" height="1.5" fill="#CFDDE6"/>
+<text x="2748" y="1392" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#5B6675" font-weight="600" text-anchor="start" letter-spacing="0.2">Start from the consumer, then trace backward.</text>
+<path d="M 498.0 115.0 L 511.0 136.0 L 498.0 157.0 L 506.0 157.0 L 519.0 136.0 L 506.0 115.0 Z" fill="#08829C"/>
+<path d="M 1184.0 115.0 L 1197.0 136.0 L 1184.0 157.0 L 1192.0 157.0 L 1205.0 136.0 L 1192.0 115.0 Z" fill="#08829C"/>
+<path d="M 1870.0 115.0 L 1883.0 136.0 L 1870.0 157.0 L 1878.0 157.0 L 1891.0 136.0 L 1878.0 115.0 Z" fill="#08829C"/>
+<path d="M 2696.0 115.0 L 2709.0 136.0 L 2696.0 157.0 L 2704.0 157.0 L 2717.0 136.0 L 2704.0 115.0 Z" fill="#08829C"/>
+<text x="1700.0" y="1454" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#4F5B6B" font-weight="700" text-anchor="middle" letter-spacing="1.2">CROSS-CUTTING PLANES   ·   APPLIES TO EVERY STAGE</text>
+<rect x="40" y="1466" width="3320" height="1.5" fill="#CFDDE6"/>
+<rect x="40" y="1474" width="3320" height="140" rx="10" ry="10" fill="#E8F3F5" stroke="none" stroke-width="1.4"/>
+<rect x="40" y="1474" width="460" height="140" rx="10" ry="10" fill="#08829C" stroke="none" stroke-width="1.4"/>
+<text x="270.0" y="1552.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">METADATA &amp; KNOWLEDGE</text>
+<rect x="528.0" y="1502.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="698.25" y="1552.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Enterprise Catalog</text>
+<rect x="880.5" y="1502.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1050.75" y="1552.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Lineage</text>
+<rect x="1233.0" y="1502.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1403.25" y="1552.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Discovery</text>
+<rect x="1585.5" y="1502.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1755.75" y="1552.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Business Glossary</text>
+<rect x="1938.0" y="1502.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2108.25" y="1552.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Classification</text>
+<rect x="2290.5" y="1502.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2460.75" y="1552.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Active Metadata</text>
+<rect x="2643.0" y="1502.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2813.25" y="1539.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Knowledge Graph &amp;</text>
+<text x="2813.25" y="1565.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Semantic Relationships</text>
+<rect x="2995.5" y="1502.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="3165.75" y="1539.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Schema &amp; Interface</text>
+<text x="3165.75" y="1565.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Registry</text>
+<rect x="40" y="1632" width="3320" height="140" rx="10" ry="10" fill="#E6EFF1" stroke="none" stroke-width="1.4"/>
+<rect x="40" y="1632" width="460" height="140" rx="10" ry="10" fill="#1B5A6F" stroke="none" stroke-width="1.4"/>
+<text x="270.0" y="1710.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">GOVERNANCE &amp; TRUST</text>
+<rect x="528.0" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="678.6666666666666" y="1710.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Governance</text>
+<rect x="841.3333333333333" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="991.9999999999999" y="1710.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Quality</text>
+<rect x="1154.6666666666665" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1305.3333333333333" y="1710.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Observability</text>
+<rect x="1468.0" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1618.6666666666667" y="1710.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Contract Policies</text>
+<rect x="1781.3333333333333" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1932.0" y="1710.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Product Governance</text>
+<rect x="2094.6666666666665" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2245.333333333333" y="1710.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Privacy &amp; Security</text>
+<rect x="2408.0" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2558.6666666666665" y="1697.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Lifecycle, Retention</text>
+<text x="2558.6666666666665" y="1723.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">&amp; Deletion</text>
+<rect x="2721.333333333333" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2871.9999999999995" y="1710.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Policy as Code</text>
+<rect x="3034.6666666666665" y="1660.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="3185.333333333333" y="1697.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Audit &amp; Compliance</text>
+<text x="3185.333333333333" y="1723.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Reporting</text>
+<rect x="40" y="1790" width="3320" height="140" rx="10" ry="10" fill="#EBEEF2" stroke="none" stroke-width="1.4"/>
+<rect x="40" y="1790" width="460" height="140" rx="10" ry="10" fill="#2D3141" stroke="none" stroke-width="1.4"/>
+<text x="270.0" y="1868.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">CONTROL PLANE</text>
+<rect x="528.0" y="1818.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="698.25" y="1868.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Access Management</text>
+<rect x="880.5" y="1818.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1050.75" y="1855.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Policy Management</text>
+<text x="1050.75" y="1881.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">&amp; Enforcement</text>
+<rect x="1233.0" y="1818.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1403.25" y="1855.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Cost Management</text>
+<text x="1403.25" y="1881.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">&amp; FinOps Governance</text>
+<rect x="1585.5" y="1818.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1755.75" y="1868.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Usage Metering &amp; Quotas</text>
+<rect x="1938.0" y="1818.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2108.25" y="1868.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Data Contracts Enforcement</text>
+<rect x="2290.5" y="1818.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2460.75" y="1855.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Quality Policies</text>
+<text x="2460.75" y="1881.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Enforcement</text>
+<rect x="2643.0" y="1818.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2813.25" y="1855.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Platform APIs &amp; Interfaces</text>
+<text x="2813.25" y="1881.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">(control)</text>
+<rect x="2995.5" y="1818.0" width="340.5" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="3165.75" y="1868.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Workflow &amp; Orchestration</text>
+<rect x="40" y="1948" width="3320" height="140" rx="10" ry="10" fill="#EFF1F3" stroke="none" stroke-width="1.4"/>
+<rect x="40" y="1948" width="460" height="140" rx="10" ry="10" fill="#566072" stroke="none" stroke-width="1.4"/>
+<text x="270.0" y="2026.0" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1.2">PLATFORM ENGINEERING</text>
+<rect x="528.0" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="678.6666666666666" y="2026.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Developer Experience</text>
+<rect x="841.3333333333333" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="991.9999999999999" y="2013.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Infrastructure as Code</text>
+<text x="991.9999999999999" y="2039.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">&amp; GitOps</text>
+<rect x="1154.6666666666665" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1305.3333333333333" y="2026.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">CI/CD &amp; DevOps</text>
+<rect x="1468.0" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1618.6666666666667" y="2013.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Platform APIs &amp;</text>
+<text x="1618.6666666666667" y="2039.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Self-Service Portal</text>
+<rect x="1781.3333333333333" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="1932.0" y="2026.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Observability &amp; Monitoring</text>
+<rect x="2094.6666666666665" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2245.333333333333" y="2026.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Reliability Engineering</text>
+<rect x="2408.0" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2558.6666666666665" y="2026.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Security Engineering</text>
+<rect x="2721.333333333333" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="2871.9999999999995" y="2026.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">FinOps &amp; Cost Optimization</text>
+<rect x="3034.6666666666665" y="1976.0" width="301.3333333333333" height="84" rx="6" ry="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<text x="3185.333333333333" y="2013.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Multi-cloud &amp; Hybrid</text>
+<text x="3185.333333333333" y="2039.4" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2D3141" font-weight="600" text-anchor="middle" letter-spacing="0">Management</text>
+</svg>

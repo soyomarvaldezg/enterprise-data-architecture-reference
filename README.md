@@ -24,6 +24,23 @@ Not every dataset is expected to pass through every logical zone. The appropriat
 
 ![Enterprise Data Platform Reference Architecture](diagrams/dataArchitectureReference.png)
 
+The diagram is a capability inventory: five stages across the top and four cross-cutting planes beneath. The Example Data Products group is illustrative, not an additional stage. Each box is a capability you can mark as present, partial, or missing when mapping your own platform, so gaps are visible at a glance. The editable source lives in [`diagrams/dataArchitectureReference.svg`](diagrams/dataArchitectureReference.svg).
+
+### How to Use It
+
+Do not paint every box. Pick one real data flow, follow it left to right, and mark only the capabilities it touches. An empty box is either not applicable or a gap to plan for.
+
+Worked example: finance reporting from an ERP and CRM.
+
+1. **Data Sources:** Applications, Databases.
+2. **Integration Plane:** Batch, Database Connectivity (JDBC/ODBC), Private Service Connectivity.
+3. **Enterprise Data Platform:** Raw → Standardized → Curated; Batch Processing, Data Transformation, Data Validation; Data Marts.
+4. **Serving & Data Products:** SQL Access, Semantic Models, Metric Models, Business Metrics & KPIs; Financial Performance.
+5. **Data Consumption:** Analysts, Business Users, Analytics & Reporting.
+6. **Cross-cutting planes:** Enterprise Catalog, Data Lineage, Data Quality, Contract Policies, Access Management, Workflow & Orchestration, CI/CD & DevOps, Observability & Monitoring.
+
+The same flow does not need Streaming, CDC, Event Processing, GraphQL APIs, IoT Devices, Public Data, or External Consumers. That is expected: the diagram is a superset, and each pipeline uses a subset.
+
 Think of an enterprise data platform like a **city's water utility system**:
 
 | Water System                         | Data Platform Equivalent                               |

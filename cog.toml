@@ -6,8 +6,9 @@ branch_whitelist = ["main", "release"]
 [changelog]
 path = "CHANGELOG.md"
 template = "remote"
-remote = "origin"
-repository = "soyomarvaldezg/enterprise-data-architecture-reference"
+remote = "github.com"
+repository = "enterprise-data-architecture-reference"
+owner = "soyomarvaldezg"
 
 [commit_types]
 chore = { changelog_title = "Chores" }

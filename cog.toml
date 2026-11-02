@@ -1,0 +1,21 @@
+from_latest_tag = true
+ignore_merge_commits = true
+tag_prefix = "v"
+branch_whitelist = ["main", "release"]
+
+[changelog]
+path = "CHANGELOG.md"
+template = "remote"
+remote = "origin"
+repository = "soyomarvaldezg/enterprise-data-architecture-reference"
+
+[commit_types]
+chore = { changelog_title = "Chores" }
+ci = { changelog_title = "Continuous integration" }
+docs = { changelog_title = "Documentation" }
+feat = { changelog_title = "Features" }
+fix = { changelog_title = "Bug fixes" }
+perf = { changelog_title = "Performance" }
+refactor = { changelog_title = "Refactoring" }
+style = { changelog_title = "Styling" }
+test = { changelog_title = "Tests" }

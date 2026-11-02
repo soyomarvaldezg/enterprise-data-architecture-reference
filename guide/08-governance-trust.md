@@ -19,7 +19,10 @@ Think of governance as a **city's building codes, health inspections, and regula
 | Smoke detectors, fire alarms, sprinkler systems     | Data Observability — detecting abnormal behavior before it becomes a disaster                 |
 | Business licenses, permits                          | Contract Policies — what a valid data contract must contain                                   |
 | Restaurant grading (A, B, C)                        | Data Product Governance — certification levels for published products                         |
-| Privacy laws, HIPAA, food safety regulations        | Privacy & Security — protecting personal data and controlling access                          |
+| Privacy laws, HIPAA, food safety regulations        | Data Privacy — what personal data may be collected, used and kept                            |
+| Photo ID at the door, staff badges                  | Identity & Authentication — proving who a person or a service is                            |
+| Locks on the doors, keys held by the manager        | Encryption & Key Management — scrambling data and controlling who holds the keys             |
+| Blurring faces in CCTV footage                      | Data Masking & Tokenization — showing a redacted value instead of the real one               |
 | Demolition permits, historical preservation rules   | Lifecycle, Retention & Deletion — how long data is kept and when it must be destroyed         |
 | Automated code compliance checks in permit software | Policy as Code — executable, testable controls replacing manual reviews                       |
 | Audit reports, inspection records                   | Audit & Compliance Reporting — evidence that controls operated correctly                      |
@@ -37,7 +40,10 @@ A city doesn't trust buildings because the architect said they're safe. It requi
 | **Data Observability**              | Detects abnormal behavior in data systems                                                                                          | Freshness, volume, quality, schema, distribution changes, pipeline failures, missing partitions, unexpected null rates    |
 | **Contract Policies**               | Defines what a valid data contract must contain                                                                                    | Required ownership, schema compatibility, freshness objectives, quality thresholds, deprecation notices, versioning rules |
 | **Data Product Governance**         | Requirements for ownership, publication, operation, and retirement of data products                                                | Product owner, domain, lifecycle, SLOs, support, change management, consumer communication, certification                 |
-| **Privacy & Security**              | Covers personal data, consent, encryption, masking, tokenization, access controls, purpose limitation, data minimization           | Security protects systems; privacy governs appropriate use of information about individuals                               |
+| **Data Privacy**                    | What personal data may be collected, used, shared and kept                                                                        | Consent, purpose limitation, data minimization, subject access and erasure requests                                      |
+| **Identity & Authentication**       | Proving who a person or a service is, once, and reusing that proof everywhere                                                      | Single sign-on, service accounts, workload identity, credential rotation                                                  |
+| **Encryption & Key Management**     | Protecting data at rest and in transit, and controlling who holds the keys                                                        | Key custody (HSM or KMS), rotation, bring-your-own-key, envelope encryption                                               |
+| **Data Masking & Tokenization**     | Showing a redacted value instead of the real one                                                                                  | Dynamic masking, static masking for non-production copies, tokenization, format-preserving pseudonyms                    |
 | **Lifecycle, Retention & Deletion** | How long data is retained, when archived, when deleted, legal holds, deletion propagation to derived assets                        | Deletion is especially difficult when data has been copied into multiple downstream systems                               |
 | **Policy as Code**                  | Converts written policies into executable and testable controls                                                                    | Prevent publishing unclassified datasets; require owners before production; reject incompatible schema changes            |
 | **Audit & Compliance Reporting**    | Evidence showing who accessed data, which policy was applied, which change occurred, who approved publication                      | Who, what, when, why — traceable and verifiable                                                                           |
@@ -102,6 +108,10 @@ Getting governance right means:
 | **Data Contract**                 | An agreement defining schema, quality, freshness, ownership, and compatibility rules               |
 | **SLO (Service Level Objective)** | A measurable target for data product reliability (freshness, availability, quality)                |
 | **Data Minimization**             | Collecting and retaining only the data necessary for a specific purpose                            |
+| **Data Privacy**                   | Rules about what personal data may be collected, used and kept, separate from keeping it secure    |
+| **Identity**                       | A verified statement of who a person, application or job is                                         |
+| **Encryption**                     | Scrambling data so it is unreadable without the key, at rest and in transit                         |
+| **Tokenization**                   | Replacing a sensitive value with a stand-in that maps back only through a protected lookup          |
 | **Purpose Limitation**            | Using data only for the purposes for which it was collected                                        |
 | **Legal Hold**                    | A requirement to preserve data that would otherwise be deleted, due to litigation or investigation |
 | **Referential Integrity**         | Relationships between datasets are valid (no orphaned records, no dangling references)             |
@@ -118,4 +128,17 @@ Getting governance right means:
 - **Centralized bottleneck** — one team approving everything doesn't scale; federate with clear standards
 - **Ignoring deletion complexity** — deleting from the source doesn't delete from downstream copies; plan propagation
 - **Treating privacy and security as the same** — security protects systems; privacy governs appropriate use of personal information
+- **Standing credentials** — a pipeline holding a permanent database password is a breach waiting to happen; prefer short-lived, workload-issued credentials
 - **No certification levels** — not all data products need the same rigor; tier your governance by criticality
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Secure data sharing with partners](../examples/secure-data-sharing.md) — replicated, contracted, shared outward with a partner.
+- [Retention and audit](../examples/compliance-retention.md) — kept for years, provable, then deleted.
+- [Finance reporting from an ERP and CRM](../examples/finance-reporting.md) — batch, ERP and CRM, published as a governed data product.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

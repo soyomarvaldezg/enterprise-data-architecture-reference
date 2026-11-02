@@ -3,3 +3,4 @@ NOTES.md
 .crush
 logo/
 refer/
+__pycache__/

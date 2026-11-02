@@ -49,7 +49,7 @@ You wouldn't send a single urgent letter via freight train, and you wouldn't shi
 | ------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------- |
 | **Publish & Subscribe**               | Producers publish; consumers subscribe to topics they care about     | Decoupling many producers from many consumers              |
 | **Event Streaming**                   | Durable, ordered stream of events that multiple consumers can replay | Analytics, event sourcing, independent consumer processing |
-| **Replication / CDC**                 | Copying data state or changes from one system to another             | Synchronization, backup, read replicas                     |
+| **Log-Based Replication**             | Copying data state or changes, usually by reading the source's log   | Synchronization, backup, read replicas                     |
 | **Database Connectivity (JDBC/ODBC)** | Standard protocols for querying databases directly                   | Simple integrations; watch out for production load         |
 | **File Transfer (FTP/SFTP)**          | Moving files between systems                                         | Legacy integrations, partner exchanges, bulk exports       |
 | **Data Transfer Services**            | Managed services for moving large datasets                           | Bulk migration, cross-cloud transfers, initial loads       |
@@ -121,3 +121,15 @@ Getting integration right means:
 - **Direct database queries without load testing** — a new pipeline can accidentally take down a production system
 - **No replay mechanism** — when something breaks, you need to be able to reprocess from a known point
 - **Treating file arrival as data validity** — a file showing up doesn't mean its contents are correct
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Finance reporting from an ERP and CRM](../examples/finance-reporting.md) — batch, ERP and CRM, published as a governed data product.
+- [Customer 360 from operational systems](../examples/customer-360.md) — streaming, one identity per customer, served inside an app.
+- [Real-time alerts from event streams](../examples/realtime-alerts.md) — events processed in flight, pushed back as REST calls.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

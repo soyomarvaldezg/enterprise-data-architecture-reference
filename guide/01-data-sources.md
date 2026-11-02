@@ -98,3 +98,15 @@ A senior architecture principle: **every source should have a minimum contract**
 - **Direct database access without approval** — querying a production database can slow down the business application running on it
 - **Treating files as reliable contracts** — a file arriving doesn't mean its contents are correct; validate both structure and content
 - **Ignoring external source volatility** — SaaS vendors change APIs without notice; build monitoring for schema drift
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Federated reporting without copying data](../examples/federated-reporting.md) — query in place, nothing landed.
+- [Customer 360 from operational systems](../examples/customer-360.md) — streaming, one identity per customer, served inside an app.
+- [ML and AI features from governed data](../examples/ml-and-ai.md) — batch features for models, stopping where the reference stops.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

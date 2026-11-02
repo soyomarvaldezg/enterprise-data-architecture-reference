@@ -123,3 +123,15 @@ Getting platform engineering right means:
 - **Security as a gate, not a guardrail** — blocking deployments at the end is painful; bake security into templates and CI
 - **FinOps without engineering involvement** — cost optimization requires engineers understanding tradeoffs, not just finance reports
 - **Multi-cloud for its own sake** — don't add complexity unless you have a genuine business reason; portability has real costs
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Finance reporting from an ERP and CRM](../examples/finance-reporting.md) — batch, ERP and CRM, published as a governed data product.
+- [Customer 360 from operational systems](../examples/customer-360.md) — streaming, one identity per customer, served inside an app.
+- [ML and AI features from governed data](../examples/ml-and-ai.md) — batch features for models, stopping where the reference stops.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

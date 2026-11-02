@@ -122,3 +122,15 @@ Getting consumption right means:
 - **Treating all consumers equally** — critical operational apps need stronger SLAs than experimental analyses
 - **Missing deprecation communication** — retiring an API or dataset without notifying dependent consumers
 - **Over-restricting access** — excessive controls push users to find workarounds; balance security with usability
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Customer 360 from operational systems](../examples/customer-360.md) — streaming, one identity per customer, served inside an app.
+- [Finance reporting from an ERP and CRM](../examples/finance-reporting.md) — batch, ERP and CRM, published as a governed data product.
+- [ML and AI features from governed data](../examples/ml-and-ai.md) — batch features for models, stopping where the reference stops.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

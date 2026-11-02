@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2462" height="892" viewBox="0 0 2462 892">
+<rect width="2462" height="892" fill="#CFDDE6"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M 0.6 0.9 L 9.4 5 L 0.6 9.1 Z" fill="#4A5670"/></marker></defs>
+<text x="40" y="56" font-family="Source Code Pro, Menlo, monospace" font-size="34" fill="#2D3141" font-weight="600" text-anchor="start" letter-spacing="0.4">ENTERPRISE DATA PLATFORM  ·  ARCHITECTURE OVERVIEW</text>
+<rect x="40" y="76" width="2382" height="3" rx="1.5" fill="#08829C"/>
+<text x="40" y="108" font-family="Source Code Pro, Menlo, monospace" font-size="17" fill="#08829C" font-weight="600" text-anchor="start" letter-spacing="1.2">WORKED FLOW  ·  FINANCE REPORTING, ERP AND CRM</text>
+<text x="2422" y="108" font-family="Source Code Pro, Menlo, monospace" font-size="15" fill="#4A5670" font-weight="600" text-anchor="end" letter-spacing="1.1">TEAL CARDS PARTICIPATE  ·  FADED CARDS DO NOT</text>
+<rect x="40" y="132" width="372" height="538" rx="12" ry="12" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 52 132 h 348 a 12 12 0 0 1 12 12 v 40 h -372 v -40 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="226.0" y="166" font-family="Source Code Pro, Menlo, monospace" font-size="23" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="1.4">1 · SOURCES</text>
+<rect x="54" y="204" width="344" height="54" rx="6" ry="6" fill="#E6F3F6" stroke="#08829C" stroke-width="2.4"/>
+<circle cx="76" cy="231.0" r="11" fill="#08829C"/>
+<text x="76" y="235.5" font-family="Source Code Pro, Menlo, monospace" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0">1</text>
+<text x="226.0" y="239" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="700" text-anchor="middle" letter-spacing="0">Internal Systems</text>
+<rect x="54" y="282" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="226.0" y="317" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">SaaS &amp; Partners</text>
+<rect x="54" y="360" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="226.0" y="395" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Events &amp; Streams</text>
+<rect x="54" y="438" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="226.0" y="473" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Files &amp; Unstructured</text>
+<rect x="54" y="516" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="226.0" y="551" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">IoT Devices</text>
+<rect x="54" y="594" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="226.0" y="629" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Public &amp; Third-Party</text>
+<rect x="442" y="132" width="372" height="538" rx="12" ry="12" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 454 132 h 348 a 12 12 0 0 1 12 12 v 40 h -372 v -40 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="628.0" y="166" font-family="Source Code Pro, Menlo, monospace" font-size="23" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="1.4">2 · INTEGRATION</text>
+<rect x="456" y="204" width="344" height="54" rx="6" ry="6" fill="#E6F3F6" stroke="#08829C" stroke-width="2.4"/>
+<circle cx="478" cy="231.0" r="11" fill="#08829C"/>
+<text x="478" y="235.5" font-family="Source Code Pro, Menlo, monospace" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0">2</text>
+<text x="628.0" y="239" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="700" text-anchor="middle" letter-spacing="0">Batch Transfer</text>
+<rect x="456" y="282" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="628.0" y="317" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Micro-batch</text>
+<rect x="456" y="360" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="628.0" y="395" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Streaming</text>
+<rect x="456" y="438" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="628.0" y="473" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">CDC &amp; Replication</text>
+<rect x="456" y="516" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="628.0" y="551" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">APIs &amp; Connectors</text>
+<rect x="456" y="594" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="628.0" y="629" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Private Connectivity</text>
+<rect x="844" y="132" width="372" height="538" rx="12" ry="12" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 856 132 h 348 a 12 12 0 0 1 12 12 v 40 h -372 v -40 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="1030.0" y="166" font-family="Source Code Pro, Menlo, monospace" font-size="23" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="1.4">3 · STORAGE</text>
+<rect x="858" y="204" width="344" height="54" rx="6" ry="6" fill="#E6F3F6" stroke="#08829C" stroke-width="2.4"/>
+<circle cx="880" cy="231.0" r="11" fill="#08829C"/>
+<text x="880" y="235.5" font-family="Source Code Pro, Menlo, monospace" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0">3</text>
+<text x="1030.0" y="239" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="700" text-anchor="middle" letter-spacing="0">Raw</text>
+<rect x="858" y="282" width="344" height="54" rx="6" ry="6" fill="#E6F3F6" stroke="#08829C" stroke-width="2.4"/>
+<circle cx="880" cy="309.0" r="11" fill="#08829C"/>
+<text x="880" y="313.5" font-family="Source Code Pro, Menlo, monospace" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0">4</text>
+<text x="1030.0" y="317" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="700" text-anchor="middle" letter-spacing="0">Standardized</text>
+<rect x="858" y="360" width="344" height="54" rx="6" ry="6" fill="#E6F3F6" stroke="#08829C" stroke-width="2.4"/>
+<circle cx="880" cy="387.0" r="11" fill="#08829C"/>
+<text x="880" y="391.5" font-family="Source Code Pro, Menlo, monospace" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0">5</text>
+<text x="1030.0" y="395" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="700" text-anchor="middle" letter-spacing="0">Curated</text>
+<rect x="858" y="438" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1030.0" y="473" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Serving Views</text>
+<rect x="858" y="516" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1030.0" y="551" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Materialized Views</text>
+<rect x="858" y="594" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1030.0" y="629" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Archive &amp; Retention</text>
+<rect x="1246" y="132" width="372" height="538" rx="12" ry="12" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 1258 132 h 348 a 12 12 0 0 1 12 12 v 40 h -372 v -40 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="1432.0" y="166" font-family="Source Code Pro, Menlo, monospace" font-size="23" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="1.4">4 · PROCESSING</text>
+<rect x="1260" y="204" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1432.0" y="239" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Data Validation</text>
+<rect x="1260" y="282" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1432.0" y="317" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Data Transformation</text>
+<rect x="1260" y="360" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1432.0" y="395" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Data Enrichment</text>
+<rect x="1260" y="438" width="344" height="54" rx="6" ry="6" fill="#E6F3F6" stroke="#08829C" stroke-width="2.4"/>
+<circle cx="1282" cy="465.0" r="11" fill="#08829C"/>
+<text x="1282" y="469.5" font-family="Source Code Pro, Menlo, monospace" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0">6</text>
+<text x="1432.0" y="473" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="700" text-anchor="middle" letter-spacing="0">Batch Transformation</text>
+<rect x="1260" y="516" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1432.0" y="551" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Stream Processing</text>
+<rect x="1260" y="594" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1432.0" y="629" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Schema Evolution</text>
+<rect x="1648" y="132" width="372" height="538" rx="12" ry="12" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 1660 132 h 348 a 12 12 0 0 1 12 12 v 40 h -372 v -40 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="1834.0" y="166" font-family="Source Code Pro, Menlo, monospace" font-size="23" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="1.4">5 · SERVING</text>
+<rect x="1662" y="204" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1834.0" y="239" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">SQL Access</text>
+<rect x="1662" y="282" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1834.0" y="317" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Semantic &amp; Metric Layer</text>
+<rect x="1662" y="360" width="344" height="54" rx="6" ry="6" fill="#E6F3F6" stroke="#08829C" stroke-width="2.4"/>
+<circle cx="1684" cy="387.0" r="11" fill="#08829C"/>
+<text x="1684" y="391.5" font-family="Source Code Pro, Menlo, monospace" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0">7</text>
+<text x="1834.0" y="395" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="700" text-anchor="middle" letter-spacing="0">Data Products</text>
+<rect x="1662" y="438" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1834.0" y="473" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">REST &amp; GraphQL APIs</text>
+<rect x="1662" y="516" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1834.0" y="551" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Federated Data Access</text>
+<rect x="1662" y="594" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="1834.0" y="629" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Secure Data Sharing</text>
+<rect x="2050" y="132" width="372" height="538" rx="12" ry="12" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.8"/>
+<path d="M 2062 132 h 348 a 12 12 0 0 1 12 12 v 40 h -372 v -40 a 12 12 0 0 1 12 -12 Z" fill="#08829C"/>
+<text x="2236.0" y="166" font-family="Source Code Pro, Menlo, monospace" font-size="23" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="1.4">6 · CONSUMPTION</text>
+<rect x="2064" y="204" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="2236.0" y="239" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Analysts</text>
+<rect x="2064" y="282" width="344" height="54" rx="6" ry="6" fill="#E6F3F6" stroke="#08829C" stroke-width="2.4"/>
+<circle cx="2086" cy="309.0" r="11" fill="#08829C"/>
+<text x="2086" y="313.5" font-family="Source Code Pro, Menlo, monospace" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0">8</text>
+<text x="2236.0" y="317" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="700" text-anchor="middle" letter-spacing="0">Business Users</text>
+<rect x="2064" y="360" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="2236.0" y="395" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Applications &amp; Embedded</text>
+<rect x="2064" y="438" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="2236.0" y="473" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Data Scientists &amp; ML</text>
+<rect x="2064" y="516" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="2236.0" y="551" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Operational Applications</text>
+<rect x="2064" y="594" width="344" height="54" rx="6" ry="6" fill="#FFFFFF" stroke="#657486" stroke-width="1.3" opacity="0.3"/>
+<text x="2236.0" y="629" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="22" fill="#2D3141" font-weight="500" text-anchor="middle" letter-spacing="0" opacity="0.3">Partners &amp; External</text>
+<path d="M 423.0 148.0 L 433.0 158.0 L 423.0 168.0" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 825.0 148.0 L 835.0 158.0 L 825.0 168.0" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1227.0 148.0 L 1237.0 158.0 L 1227.0 168.0" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1629.0 148.0 L 1639.0 158.0 L 1629.0 168.0" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2031.0 148.0 L 2041.0 158.0 L 2031.0 168.0" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="40" y="706" font-family="Source Code Pro, Menlo, monospace" font-size="17" fill="#4A5670" font-weight="600" text-anchor="start" letter-spacing="1.2">CROSS-CUTTING PLANES  ·  APPLIES TO EVERY STAGE</text>
+<rect x="40.0" y="722" width="457.2" height="96" rx="10" ry="10" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.4"/>
+<path d="M 50.0 722 h 191 v 96 h -191 a 10 10 0 0 1 -10 -10 v -76 a 10 10 0 0 1 10 -10 Z" fill="#08829C"/>
+<text x="140.5" y="776" font-family="Source Code Pro, Menlo, monospace" font-size="15" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="0.5">METADATA &amp; KNOWLEDGE</text>
+<text x="259.0" y="776" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="16" fill="#4A5670" font-weight="400" text-anchor="start" letter-spacing="0">catalog · lineage · glossary</text>
+<rect x="521.2" y="722" width="457.2" height="96" rx="10" ry="10" fill="#DCE7EF" stroke="#CFDDE6" stroke-width="1.4"/>
+<path d="M 531.2 722 h 191 v 96 h -191 a 10 10 0 0 1 -10 -10 v -76 a 10 10 0 0 1 10 -10 Z" fill="#2D3141"/>
+<text x="621.7" y="776" font-family="Source Code Pro, Menlo, monospace" font-size="15" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="0.5">GOVERNANCE &amp; TRUST</text>
+<text x="740.2" y="776" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="16" fill="#4A5670" font-weight="400" text-anchor="start" letter-spacing="0">quality · privacy · security</text>
+<rect x="1002.4" y="722" width="457.2" height="96" rx="10" ry="10" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.4"/>
+<path d="M 1012.4 722 h 191 v 96 h -191 a 10 10 0 0 1 -10 -10 v -76 a 10 10 0 0 1 10 -10 Z" fill="#08829C"/>
+<text x="1102.9" y="776" font-family="Source Code Pro, Menlo, monospace" font-size="15" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="0.5">CONTROL PLANE</text>
+<text x="1221.4" y="776" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="16" fill="#4A5670" font-weight="400" text-anchor="start" letter-spacing="0">access · cost · orchestration</text>
+<rect x="1483.6" y="722" width="457.2" height="96" rx="10" ry="10" fill="#DCE7EF" stroke="#CFDDE6" stroke-width="1.4"/>
+<path d="M 1493.6 722 h 191 v 96 h -191 a 10 10 0 0 1 -10 -10 v -76 a 10 10 0 0 1 10 -10 Z" fill="#2D3141"/>
+<text x="1584.1" y="776" font-family="Source Code Pro, Menlo, monospace" font-size="15" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="0.5">PLATFORM ENGINEERING</text>
+<text x="1702.6" y="776" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="16" fill="#4A5670" font-weight="400" text-anchor="start" letter-spacing="0">CI/CD · IaC · observability</text>
+<rect x="1964.8" y="722" width="457.2" height="96" rx="10" ry="10" fill="#E6EDF2" stroke="#CFDDE6" stroke-width="1.4"/>
+<path d="M 1974.8 722 h 191 v 96 h -191 a 10 10 0 0 1 -10 -10 v -76 a 10 10 0 0 1 10 -10 Z" fill="#08829C"/>
+<text x="2065.3" y="776" font-family="Source Code Pro, Menlo, monospace" font-size="15" fill="#FFFFFF" font-weight="600" text-anchor="middle" letter-spacing="0.5">ML &amp; AI</text>
+<text x="2183.8" y="776" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="16" fill="#4A5670" font-weight="400" text-anchor="start" letter-spacing="0">features · registry · drift</text>
+<text x="40" y="854" font-family="DM Sans, Lato, Helvetica Neue, sans-serif" font-size="17" fill="#4A5670" font-weight="400" text-anchor="start" letter-spacing="0">Not every dataset crosses every stage; each flow uses a subset of these boxes.</text>
+<text x="2422" y="854" font-family="Source Code Pro, Menlo, monospace" font-size="15" fill="#4A5670" font-weight="600" text-anchor="end" letter-spacing="1.1">CAPABILITY-LEVEL DETAIL IN THE REFERENCE DIAGRAM</text>
+<image x="2042" y="14" width="380" height="46" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,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"/>
+</svg>

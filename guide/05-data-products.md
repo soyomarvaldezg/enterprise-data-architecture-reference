@@ -6,9 +6,9 @@ A business data product is a **trusted, reusable data offering aligned with a sp
 
 Think of it as the difference between **ingredients in a kitchen** and **a menu item at a restaurant**. Ingredients (curated datasets) are prepared and ready to use, but a menu item (data product) has a name, a description, a price, a chef responsible for it, consistency standards, and customers who expect it to be available when ordered.
 
-The diagram shows five example data products: **Customer 360**, **Order Lifecycle**, **Inventory Availability**, **Financial Performance**, and **Marketing Attribution**. These are illustrations, not mandatory components. Every organization will have different data products based on its business.
+**Data Products** is one card in the Serving column, not a separate stage. It represents a logical portfolio, and its technical implementation may span curated datasets, serving structures, semantic models, APIs, contracts, documentation, quality controls, and service-level objectives.
 
-The **Business Data Products** column represents a logical portfolio, not another storage or processing zone. The technical implementation of a product may span curated datasets, serving structures, semantic models, APIs, contracts, documentation, quality controls, and service-level objectives.
+Two of the [worked flows](../examples/README.md) publish one: [Customer 360](../examples/customer-360.md) and [Finance reporting from an ERP and CRM](../examples/finance-reporting.md). The other flows deliberately publish something else, which is why this is described as one serving mode rather than the mandatory end of every pipeline.
 
 ---
 
@@ -119,3 +119,14 @@ Getting data products right means:
 - **Building products without consumers** — don't create a data product hoping someone will use it; start with a known need
 - **Treating attribution as objective truth** — different models produce different answers; document which model you use and why
 - **Missing versioning** — schema or logic changes break consumers silently; version and communicate
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Finance reporting from an ERP and CRM](../examples/finance-reporting.md) — batch, ERP and CRM, published as a governed data product.
+- [Customer 360 from operational systems](../examples/customer-360.md) — streaming, one identity per customer, served inside an app.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

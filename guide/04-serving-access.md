@@ -32,7 +32,7 @@ A restaurant doesn't send customers into the kitchen to figure out what's availa
 
 ## What It Does
 
-### 5.1 Business Semantics — Defining Meaning
+### 4.1 Business Semantics — Defining Meaning
 
 | Concept                      | What It Is                                 | Example                                                                                       |
 | ---------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------- |
@@ -43,7 +43,7 @@ A restaurant doesn't send customers into the kitchen to figure out what's availa
 
 A metric name without its formula, grain, time behavior, filters, and owner is **not an adequate definition**.
 
-### 5.2 Context & Semantic Services — Making Meaning Executable
+### 4.2 Context & Semantic Services — Making Meaning Executable
 
 | Service                             | What It Does                                                                                  | Why It Matters                                                                                            |
 | ----------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -53,7 +53,7 @@ A metric name without its formula, grain, time behavior, filters, and owner is *
 | **Semantic Query APIs**             | Let consumers request data using business concepts, not table names                           | "Revenue by region" instead of "SELECT SUM(amount) FROM fact_orders JOIN dim_geo..."                      |
 | **Metric Calculation & Resolution** | Selects and executes the correct metric definition based on context                           | Resolves which version, dimensions, aggregation method, and source apply                                  |
 
-### 5.3 Access Services — How Consumers Get Data
+### 4.3 Access Services — How Consumers Get Data
 
 | Access Method             | What It Is                                                                 | Best For                                                        | Key Controls Needed                                                             |
 | ------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -123,3 +123,15 @@ Getting it right means:
 - **No deprecation strategy** — old APIs and views accumulate; plan for sunsetting with consumer migration paths
 - **Missing semantic layer** — without it, every dashboard rebuilds the same logic differently
 - **Over-granular access controls** — too many custom rules become unmaintainable; aim for attribute-based policies
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Finance reporting from an ERP and CRM](../examples/finance-reporting.md) — batch, ERP and CRM, published as a governed data product.
+- [Customer 360 from operational systems](../examples/customer-360.md) — streaming, one identity per customer, served inside an app.
+- [Self-service BI on a semantic layer](../examples/self-service-bi.md) — curated facts, serving views, one semantic layer.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

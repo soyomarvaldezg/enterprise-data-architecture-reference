@@ -125,3 +125,15 @@ Getting the control plane right means:
 - **Quotas without monitoring** — hitting a quota silently fails; alert before limits are reached
 - **Manual policy enforcement** — if someone has to remember to check, it will be forgotten; automate it
 - **Ignoring the human side of FinOps** — cost optimization requires engineering culture change, not just dashboards
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Customer 360 from operational systems](../examples/customer-360.md) — streaming, one identity per customer, served inside an app.
+- [Finance reporting from an ERP and CRM](../examples/finance-reporting.md) — batch, ERP and CRM, published as a governed data product.
+- [Real-time alerts from event streams](../examples/realtime-alerts.md) — events processed in flight, pushed back as REST calls.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

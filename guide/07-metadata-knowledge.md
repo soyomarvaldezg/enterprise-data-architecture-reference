@@ -113,3 +113,15 @@ Getting metadata right means:
 - **Passive metadata only** — if metadata doesn't trigger actions (masking, validation, alerts), it's just documentation
 - **No ownership tracking** — metadata without owners becomes orphaned and unreliable
 - **Confusing catalog and registry** — they serve different audiences; don't try to make one tool do both jobs poorly
+
+<!-- flows:start -->
+
+## Worked Flows That Use This Stage
+
+- [Retention and audit](../examples/compliance-retention.md) — kept for years, provable, then deleted.
+- [Finance reporting from an ERP and CRM](../examples/finance-reporting.md) — batch, ERP and CRM, published as a governed data product.
+- [Customer 360 from operational systems](../examples/customer-360.md) — streaming, one identity per customer, served inside an app.
+
+See [Worked Flows](../examples/README.md) for the full catalogue.
+
+<!-- flows:end -->

@@ -10,6 +10,7 @@ The SVGs in diagrams/ and examples/img/, the example pages, and the
 generated. Hand-edit tools/diagram_builder.py or tools/page_builder.py instead.
 """
 import argparse
+import re
 import shutil
 import subprocess
 import sys
@@ -26,6 +27,35 @@ def generated():
     out.update(diagram_builder.build_all())
     out.update(page_builder.build_all())
     return out
+
+
+SVG_SIZE = re.compile(r'<svg[^>]*width="(\d+)"[^>]*height="(\d+)"')
+BG_SIZE = re.compile(r'<rect width="(\d+)" height="(\d+)" fill=')
+
+
+def canvas_problems(svg_text):
+    """The background rect must cover the whole canvas, or the edges render transparent."""
+    canvas = SVG_SIZE.search(svg_text)
+    background = BG_SIZE.search(svg_text)
+    if not canvas or not background:
+        return ["missing canvas size or background rectangle"]
+    if canvas.groups() != background.groups():
+        return [f"background {background.group(0)[:40]} does not match canvas "
+                f"{canvas.group(1)}x{canvas.group(2)}"]
+    return []
+
+
+def validate(out):
+    problems = []
+    for rel, text in out.items():
+        if rel.endswith(".svg"):
+            for problem in canvas_problems(text):
+                problems.append(f"{rel}: {problem}")
+    detailed = REPO / "diagrams/dataArchitectureReference.svg"
+    if detailed.exists():
+        for problem in canvas_problems(detailed.read_text()):
+            problems.append(f"diagrams/dataArchitectureReference.svg: {problem}")
+    return problems
 
 
 def stale(out):
@@ -74,6 +104,13 @@ def main():
     args = ap.parse_args()
 
     out = generated()
+
+    problems = validate(out)
+    if problems:
+        print("invalid diagrams:")
+        for problem in problems:
+            print(f"  {problem}")
+        sys.exit(1)
 
     if args.check:
         bad = stale(out)
